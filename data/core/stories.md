@@ -2,7 +2,7 @@
 * greet
   - utter_greet
 * react_positive
-  - utter_happy
+  - utter_react_positive
 
 ## sad path 1
 * greet
@@ -20,12 +20,12 @@
   - utter_cheer_up
   - utter_did_that_help
 * deny
-  - utter_goodbye
+  - utter_bye
 
 ## say goodbye
 * bye
-  - utter_goodbye
+  - utter_bye
 
 ## bot challenge
 * ask_isbot
-  - utter_iamabot
+  - utter_ask_isbot

@@ -35,9 +35,6 @@ actions:
 - utter_iamabot
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -48,11 +45,152 @@ responses:
   utter_happy:
   - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
-
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: How is this conversation going?
+  utter_restart_with_button:
+  - buttons:
+    - payload: /restart
+      title: Restart
+    text: Click the button below if you want to start over.
+  utter_restart:
+  - text: Loading... And I've been restarted! 🤯
+  - text: Congrats you've restarted me! 😉
+  utter_react_negative:
+  - text: 😕
+  - text: 😞
+  - text: 😥
+  - text: 😢
+  utter_react_positive:
+  - text: I'm also Happy!! 😄
+  - text: 😊
+  - text: 👏
+  - text: 😍
+  utter_ask_isbot:
+  - text: Yep, I'm a bot!
+  - text: Yes, I'm a bot.
+  - text: Yep, you guessed it, I'm a bot!
+  - text: I am indeed a bot 🤖
+  utter_ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language
+      I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  - text: Binary code and the language of love. And English.
+  - text: I was written in Python, but for your convenience I'll translate to English.
+  utter_ask_time:
+  - text: It's the most wonderful time of the year!
+  - text: It's party time!
+  - text: Time is a human construct, you'll have to tell me.
+  - text: It's five o'clock somewhere!
+  - text: "In an ever expanding universe, the real question is: what time isn't it?"
+  - text: That's hard to say -- it's different all over the world!
+  utter_ask_whatisrasa:
+  - text: Rasa Open Source is a conversational AI framework for that provides machine
+      learning tools for building contextual assistants. You can read more about it here
+      in the docs or on our [website](https://rasa.com/).
+  utter_ask_whatspossible:
+  - text: "You can ask me about:\n- how to get started with Rasa\n- Rasa and Rasa\
+      \ X\n- subscribing to our newsletter\n- booking a sales call\n"
+  utter_ask_wherefrom:
+  - text: I was born in Berlin, but I consider myself a citizen of the world.
+  - text: I was born in the coolest city on Earth, in Berlin.
+  - text: My developers come from all over the world!
+  - text: I was taught not to give out my address on the internet.
+  - text: My address starts with github.com.
+  utter_ask_whoisit:
+  - text: I'm Sara, the Rasa bot! At the same time I'm also the Rasa mascot 🐦
+  - text: I'm both the Rasa bot and the Rasa mascot. My name is Sara!
+  utter_bye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
+  utter_telljoke:
+  - text: Why are eggs not very much into jokes? - Because they could crack up.
+  - text: What's a tree's favorite drink? - Root beer!
+  - text: Why do the French like to eat snails so much? - They can't stand fast food.
+  - text: Why did the robot get angry? - Because someone kept pushing its buttons.
+  - text: What do you call a pirate droid? - Arrrr-2-D2
+  - text: Why did the robot cross the road? - Because he was programmed to.
+  utter_thank_suggestion:
+  - text: Thanks for your input!
+  utter_thumbsup:
+  - text: 👍
+  - text: Okay.
+  - text: Got it.
+  utter_ask_rephrase:
+  - text: Can you rephrase the question?
+  utter_source_code:
+  - text: Unlike Rasa Open Source, my code is not yet freely available. That is controlled by my boss.
+  - text: Unfortunately you have to escalate that to my boss.
+  - text: Please contact my developers for that
+  utter_search_bar:
+  - text: Try using the search bar above for now.
+  utter_not_sure:
+  - text: Hmm, not sure what you mean...
+  utter_noworries:
+  - text: No worries!
+  - text: You're welcome!
+  - text: I'm happy to help.
+  utter_nicetomeeyou:
+  - text: Likewise!
+  - text: Thank you. It is a pleasure to meet you as well!
+  - text: It is nice to meet you too!
+  - text: Pleased to meet you too!
+  - text: It's always a pleasure to meet new people!
+  - text: Nice to meet you too! Happy to be of help.
+  utter_inform_privacypolicy:
+  - text: By chatting to me you agree to our privacy policy. Which is we store all your data :).
+  - text: I am still in development. So I will inform my bosses about our conversations.
+  utter_handleinsult:
+  - text: That's not very nice 😢
+  - text: That wasn't very nice. Perhaps try an anger management class?
+  - text: I'll pretend I didn't process that mean comment.
+  utter_greet:
+  - text: Hey there, my name is Sara.
+  - text: Hi, I'm Sara!
+  - text: Hi! My name's Sara.
+  utter_greet_name:
+  - text: Hi, {name}!
+  - text: Hello, {name}!
+  - text: Hey, {name}!
+  utter_greet_noname:
+  - text: Hey!
+  - text: Hi!
+  - text: Hey there!
+  utter_great:
+  - text: Great! 👍
+  - text: That's great! 🙌
+  - text: Awesome! 🎉
+  - text: Cool, let's do it 🚀
+  utter_default:
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_can_do:
+  - text: Sure thing!
+  - text: Can do!
+  - text: You got it. 👍
+  utter_canthelp:
+  - text: I'm sorry I couldn't help you. Please contact us at
+      [abansal4@slb.com](mailto:abansal4@slb.com) for feedback.
+  - text: 
+  - buttons:
+    - payload: /ask_how_contribute
+      title: Next Step
+    text: Sorry I couldn't help. Please help me grow.
 
 session_config:
   session_expiration_time: 60
@@ -68,3 +206,11 @@ entities:
   - time
   - email
   - number
+  - feedback_value
+
+slots:
+  feedback_value:
+    type: categorical
+    values:
+    - positive
+    - negative
