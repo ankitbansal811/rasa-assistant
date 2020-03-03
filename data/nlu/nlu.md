@@ -575,6 +575,7 @@
 - I like you
 - I love you
 - you are realy intelligent
+- i'm good
 
 ## intent:react_negative
 - I am feeling bad
