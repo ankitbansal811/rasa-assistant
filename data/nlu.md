@@ -1761,3 +1761,38 @@
 - you're the most moronic person I know
 - your mom gay
 - you are annoying
+
+## intent:source_code
+- Can u tell where is ur code
+- Where can I find your source code?
+- Where can i find the source code
+- can i know your source code ?
+- can i look at your source code
+- can i see your code
+- demo bot source code
+- do u give me the code
+- hey can you provide me the code of yours
+- how can i get the code for the demo bot?
+- how do u work?
+- how it works?
+- how to get the source code
+- i need source code
+- i need the source code to this bot
+- i want to use your source code
+- is your code available?
+- source code
+- we want to have full code of rasa chatbot
+- what is your source code
+- what's your source code?
+- where can I download the source code?
+- where can I find the rasa source code?
+- where can i find this code
+- where is the source code?
+- where is your source code
+- what is your github link
+- yes with your source code
+- your code
+- your code please
+
+## regex:greet
+- hey[^\s]*
