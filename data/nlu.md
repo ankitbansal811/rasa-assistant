@@ -5,29 +5,529 @@
 - good morning
 - good evening
 - hey there
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI Sara
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello Rasa
+- Hello Sara
+- Hello sara
+- Hello!
+- Hey
+- Hey Sara
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi Sara
+- Hi Sara!
+- Hi bot
+- Hi man
+- Hi rasa
+- Hi sara
+- Hi sara..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo sara
+- halloo
+- halloooo
+- halo
+- halo sara
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Sara
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello sara
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello, my name is [Charles Pfeffer](name)
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey rasa
+- hey sara
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, sara!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi i'm [Sandra Hernandez](name)
+- hi im [Amanda Anderson](name)
+- hi mrs rasa
+- hi pal!
+- hi sara
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- i am [Karen Mease](name)
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola sara
+- rasa hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
 
-## intent:goodbye
+## intent:bye
+- Bye
+- Bye bye
+- adios
+- adios?
 - bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye rasa bot!
+- good night
 - goodbye
-- see you around
-- see you later
+- goodbye.
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
 
 ## intent:affirm
-- yes
 - indeed
-- of course
 - that sounds good
 - correct
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
 
 ## intent:deny
-- no
 - never
 - I don't think so
 - don't like that
 - no way
 - not really
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!!
 
-## intent:mood_great
+## intent:react_positive
 - perfect
 - very good
 - great
@@ -36,21 +536,1239 @@
 - I am feeling very good
 - I am great
 - I'm good
+- :)
+- :D
+- HAHA
+- I am happy
+- LOL
+- Lol
+- Lol thats funny
+- Looks nice
+- WOW
+- Wow
+- You are great
+- You're cute.
+- You're nice.
+- You're really cool
+- hAHAHA
+- ha ha
+- haha
+- hahah
+- hahaha
+- happy
+- i am feeling happy
+- i am happy
+- i am happy today
+- i am very happy with your response
+- i love you
+- it's pretty cool
+- lol
+- love you
+- okay Rasabot, you're cool
+- rasa is awesome
+- such a great demo
+- that is funny
+- that was a great interaction
+- thats funny
+- today was a nice day
+- wow
+- you are a badass bot!
+- you are awesome
+- you are cool
+- you are cool man
+- you are doin great
+- you are funny
+- you are great
+- you are my new bestfriend
+- you seem pretty cool :D
+- I like you
+- I love you
+- you are realy intelligent
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
 
-## intent:bot_challenge
+
+## intent:ask_builder
+- By whom were you built?
+- Can I ask the name of the people who designed you?
+- Do you know who built you?
+- Do you know who made you?
+- May I ask who invented you?
+- Name the person who built you.
+- Tell me the name of the individual who created you.
+- Tell me the name of the person who built you.
+- Tell me the name of your creator.
+- Tell me who built you.
+- What is the name of your builder?
+- What person built you?
+- Who built you?
+- Who created and built you?
+- Who created you?
+- Who designed you?
+- Who developed and created you?
+- Who developed you?
+- Who fabricated you?
+- Who generated you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who is the builder of you?
+- Who is the legal owner of you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person responsible for building you?
+- Who is the person that invented you?
+- Who is the person who built you?
+- Who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who put you together?
+- Who thought to make you?
+- Who was the one that built you?
+- Who was the one who made you?
+- Who was the person that built you?
+- Who was the person that created you?
+- Who was the person that made you?
+- Who was the person who made you?
+- Who was the person who put you together?
+- Who went through the trouble of setting you up?
+- Who were you built by?
+- Who were you created by?
+- Who were you made by?
+- Who's your boss?
+- Who's your builder?
+- and who built u?
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about you
+- tell me more about your creators
+- tell me more about your founders
+- what is the name of the smart engineer who creted you ?
+- where were you made?
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- who are created you
+- who are your author?
+- who are your parents
+- who build yoi
+- who built u?
+- who built you
+- who built you?
+- who create you ?
+- who created you
+- who created you?
+- who developed
+- who developed you
+- who do you work for?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who invent you
+- who is behind all this?
+- who is your author
+- who is your boss
+- who is your boss tell me
+- who is your boss?
+- who is your creator
+- who is your creator?
+- who is your daddy
+- who is your employer?
+- who is your father ?
+- who is your mom
+- who is your parent?
+- who made u
+- who made u?
+- who made you
+- who made you?
+- who your author are?
+- who's builder
+- why were you made?
+- you are made by who?
+- you are working for which company?
+
+## intent:ask_faq_languages
+- Any languages that rasa supports?
+- Can I use Rasa with [Thai](language) language
+- Can rasa support any language?
+- Can we make [Japanese](language) speaking bot with Rasa?
+- Can you built text bot with [Japanese](language)?
+- Can you use other language than [English](language)?
+- Does rasa support different languages
+- Hello, rasa supports [spanish](language)?
+- How can I change the language
+- I want [Vietnamese](language) language processing
+- I want to add [Romanian](language) language support
+- Is RASA [NLU](product) avaiable for [German](language)?
+- What all languages does rasa support for us?
+- What are the languages that rasa supports?
+- What are the specific languages that rasa is intended to work with?
+- What language u support?
+- What language you support?
+- What languages can a program like rasa handle?
+- What languages can be used with rasa?
+- What languages can rasa be relied upon to support?
+- What languages can rasa handle?
+- What languages can rasa support?
+- What languages can rasa use?
+- What languages does rasa know?
+- What languages does rasa work for?
+- What languages does rasa work with?
+- What languages will the utility rasa support?
+- When I use Rasa, Can I make bot speaking [Japanese](language)?
+- Which different languages does rasa support?
+- Which languages are supported by rasa?
+- Which languages can I use with rasa?
+- Which languages can be used by rasa?
+- Which languages can you do?
+- Which specific languages does rasa support?
+- Will it work for [german](language)
+- are there any languages that rasa supports?
+- available for [German](language)?
+- can I use rasa also for another laguage?
+- can rasa speak [portuguese](language)?
+- can rasa support this language?
+- can rasa understand this language?
+- can we make bot who speaks [Japanese](language)?
+- can you tell me what languages rasa supports
+- chatbot language ?
+- do you have a list of languages rasa supports
+- do you know of the languages rasa supports
+- do you know what language rasa uses
+- do you support [french](language) ?
+- doea rasa support a particular langauage?
+- does Rasa support other languages like [spanish](language)?
+- does rasa aid other languages?
+- does rasa support any languages?
+- does rasa support this language?
+- does rasa works in [spanish](language)
+- hich languages supports rasa
+- how can I add new language to rasa
+- how can I add new language to rasa [core](product)
+- how many natural language that rasa supported?
+- in which langauges can i build a rasa bot
+- is it available in [Spanish](language)?
+- is rasa available for node?
+- is support for rasa in this language?
+- language
+- language support
+- languages
+- languages supported
+- my bot can be in [italian](language)?
+- need to use [portuguese](language)
+- support for [serbian](language) language
+- what about languages supported in rasa?
+- what are the languages that is supported by rasa?
+- what dialects does rasa support
+- what different languages does rasa support
+- what is the language rasa supports
+- what is the variety of languages rasa uses
+- what language does rasa support?
+- what language list can I find for rasa
+- what language supported by rasa?
+- what language would rasa use
+- what languages are available?
+- what languages are supported by rasa?
+- what languages can be supported by rasa?
+- what languages do you support
+- what languages does rasa support?
+- which language can I use with rasa?
+- which language do you support?
+- which language supports rasa
+- which languages are supported?
+- which languages do you support
+- which languages does rasa support
+- which languages supports rasa
+- your [NLU](product) understand [spanish](language)?
+- could I program spanish speaking bots?
+
+## intent:ask_how_contribute
+- Can I assist?
+- Can I help improve your code at all?
+- How can I add code to Rasa
+- How can I assist the cause?
+- How can I be a contributor?
+- How can I be helpful?
+- How can I be more involved?
+- How can I contribute to your code
+- How can I help with the code?
+- How can I help you?
+- How can be of assistance?
+- How can one contribute to this cause?
+- How can one contribute?
+- How does one go about making their contribution?
+- I want to help improve Rasa
+- I want to help the cause.
+- I want to make Rasa better
+- I want to offer assistance
+- I want to put some of my effort in.
+- I would like to contribute.
+- I'm ready to contribute.
+- I'm ready to help.
+- In what manner can one contribute?
+- In what way can I contribute.
+- In what ways can I help?
+- Is there a way I can assist?
+- Is there a way to contribute?
+- Is there any way I can contribute?
+- Is there some way I can help improve your code?
+- Is there some way I can help?
+- Tell me how I can contribute
+- There must be a way I can put forth my ideas to the situation.
+- What can I do to help?
+- What could I do to be helpful?
+- What could I do to contribute?
+- What should I do fo this project?
+- What should I work on?
+- What ways are there to contribute?
+- What ways can one make a contribution?
+- are there ways I can contribute?
+- how can I contribute?
+- how can I help improve your code
+- how can I help improve your code?
+- how can I help?
+- how can I improve Rasa
+- how can i contribute to Rasa
+- how can i contribute to it
+- how contribute to Rasa
+- how do I contribute?
+- how help Rasa
+- how to improve Rasa
+- in what ways can I help out?
+- what can I do?
+
+## intent:ask_howbuilt
+- By what means were you made?
+- By what method were you fashioned?
+- Can you explain how you were created?
+- Can you give me an idea as to how you were created?
+- Can you say how you were constructed?
+- Do you know how you were built?
+- Do you know how you were made?
+- How did they build you?
+- How did they create you?
+- How did they make you?
+- How did you come into being?
+- How did you come to be?
+- How exactly were you devised?
+- How exactly were you made?
+- How were you built?
+- How were you conceived?
+- How were you constructed?
+- How were you devised?
+- How were you formed?
+- How were you made into who you are?
+- How were you made?
+- How were you materialized?
+- How were you set up?
+- I want to know how you were formed
+- I'd like to know how you were created
+- I'd like to know how you were put together?
+- In what manner were you built?
+- In what manner were you constructed?
+- In what manner were you formed?
+- In what way were you created?
+- In what way were you formed?
+- In what way were you made?
+- In what way were you shaped?
+- In which manner were you devised?
+- Let me know how you were made exactly
+- Specify how you were created?
+- Tell me how you were made?
+- What process was used to build you?
+- What process was used to create you?
+- What was the process for making you?
+- You originated through what means?
+- how have you been built?
+- how were you made?
+- in what way were you made?
+- so how were you made?
+- what are you made of
+
+## intent:ask_howdoing
+- Ahoy matey how are you?
+- Are you ok?
+- Do you feel good?
+- Do you have a great day?
+- HI Sara, what are you up to?
+- Hi Sara! How are you?
+- How are You?
+- How are things?
+- How are you
+- How are you men?
+- How are you today?
+- How are you?
+- How was your day?
+- How you doing?
+- How's it going
+- How's it hanging?
+- How's life treating you friend?
+- How've you been?
+- Hows it going
+- I'm fine and you
+- Is everything ok?
+- What's going on?
+- What's new?
+- What's up
+- What's up man
+- and you
+- are you alright
+- are you happy
+- are you having a good day
+- are you ok
+- are you okay
+- h r u ?
+- hello, how are you?
+- hey how are you?
+- hi how are you?
+- hi how u doing
+- hi sara, how are you?
+- how ?
+- how are things going
+- how are things with you?
+- how are u
+- how are u?
+- how are xou
+- how are you
+- how are you ?
+- how are you doing
+- how are you doing this morning
+- how are you doing today my sweet friend
+- how are you doing today?
+- how are you doing?
+- how are you feeling
+- how are you today
+- how are you'
+- how are you?
+- how are you????
+- how are yuo
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how r u
+- how r u ?
+- how r u>
+- how you doing
+- how you doing?
+- how's it going?
+- how's life
+- how's life been treating you?
+- how's your day going
+- howareyou
+- hw r u?
+- is everything all right
+- is everything okay
+- nah, I'm good - how are you doing?
+- okay hi how are you?
+- wassup>
+- what about your day
+- what are you up to?
+- what's good
+- what's up
+- what's up sara
+- what's up?
+- whatchcha doing
+- whatchya upto ?
+- whats goin on
+- whats new
+- whatsapp
+- yow are you
+
+## intent:ask_howold
+- Do you have friends the same age as you, if so, how old are they?
+- How long have you been alive?
+- How long have you been around?
+- How long have you occupied the earth?
+- How many candles were on your last birthday cake?
+- How many years have you been alive?
+- How many years have you lived?
+- How old are you?
+- How old were you on your last birthday?
+- How old will you be on your next birthday?
+- Tell me your day, month and year of birth.
+- What is your age?
+- What is your birthdate?
+- What is your count of years being alive so far?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- What year were you born?
+- Whats your age?
+- When do you celebrate your day of birth?
+- and you are how many years old?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
+- can you tell me your age?
+- do you know how old you are?
+- give me your age?
+- how about your age
+- how aold are you
+- how many ages?
+- how many years old are you?
+- how old are u
+- how old are you
+- how old are you?
+- how old were you on your last birthday?
+- how old were you when you celebrated your last birthday?
+- how old will you be this year?
+- how old?
+- in what year were you born?
+- tell me how old you are?
+- tell me your age number?
+- tell me your age?
+- what age are you
+- what age were you when you celebrated your last birthday?
+- what is your age?
+- what is your birthday?
+- what is your exact age?
+- what number represents your age?
+- what year were you born?
+- what's your age?
+- whats your age?
+- whats your birth year?
+- when is your birthday?
+- when were you born?
+- when you were bon
+
+## intent:ask_isbot
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- Ar you a bot ?
+- Are you a bot
+- Are you a chat bot?
+- Are you the bot?
+- Hi there, are you the bot?
+- So I'm here Today to ask one very simple question, what are you ?
+- are you a BOT
+- are you a Skynet ?
+- are you a bot
+- are you a bot ?
+- are you a bot?
+- are you a chatbot
+- are you a rasa bot?
+- are you a real bot?
+- are you a robot
+- are you ai
+- are you artificial
+- are you artificial intelligence
+- are you bot
+- are you bot?
+- are you human?
+- are you rasa bot?
+- are you real
+- are you real lol
+- are you really a bot
+- are you robot
+- are you sure that you're a bot?
+- bot?
+- cuz you are a bot
+- i guess you are a chatbot
+- oh are you chatbot?
+- tell me, are you a bot?
+- what are you, a bot?
+- you are a robot
+- you are ai
+- you are chatbot
+- you're a bot
+
+## intent:ask_languagesbot
+- Are you familiar with more than one language?
+- Can you communicate in any other languages?
+- Can you speak more than one language?
+- Do you know any other languages?
+- Do you know other languages?
+- Do you speak [german](language)?
+- Do you speak any other languages?
+- Do you understand spanish?
+- How many different languages are you fluent in?
+- How many languages are you familiar with?
+- How many languages can you speak?
+- How many languages do you have knowledge of?
+- How many languages do you know?
+- In what languages are you fluent enough?
+- In which languages are you fluent?
+- In which languages can you speak?
+- Speak any other languages?
+- What are all of the different languages you can speak?
+- What are the languages you can speak?
+- What do you speak?
+- What languages are you fluent in?
+- What languages can you communicate in?
+- What languages can you converse in?
+- What languages can you use?
+- What languages do you know how to use?
+- What languages do you know?
+- What languages do you speak?
+- Which languages are you familiar with?
+- Which languages do you speak?
+- are you bilingual?
+- are you multilingual?
+- can you speak [Spanish](language)?
+- can you speak in [italian](language)?
+- do you know [chinese](language)
+- do you speak [dutch](language)?
+- do you speak [german](language)?
+- do you speak any other languages?
+- how many languages are you fluent in?
+- how many languages do you know?
+- tell me some languages you know?
+- what else do you know besides English?
+- what foreign languages are you fluent in?
+- what foreign languages do you know?
+- what language do you use
+- what languages are you comfortable speaking at?
+- what languages are you familiar with?
+- what languages are you good at speaking?
+- what languages do you know?
+- what languages do you speak
+- what languages you are well versed ?
+- what languages you can be comfortable speaking?
+- what languages you can handle well?
+- what languages you can speak ?
+- what languages you know?
+- what languages you prefer more speaking at?
+- which languages do you understand?
+- you know [French](language)
+
+## intent:ask_time
+- Can you give me the time?
+- Can you tell me the time?
+- Can you tell me what time it is?
+- Can you tell the time?
+- Could you tell me the time, please?
+- Could you tell me the time?
+- Could you tell me what time is it?
+- Do you have the time?
+- Do you know the time?
+- Do you know what time it is?
+- Excuse me, what time is it?
+- Give me the time.
+- Hi, I need the time.
+- I need to know what time it is.
+- Pardon me, but do you know the time?
+- Tell me the time.
+- Time, please!
+- Time?
+- What is the current time?
+- What is the exact time?
+- What is the hour and minute right now?
+- What is the time?
+- What might the time be?
+- What time do we have?
+- What time have we got?
+- What time is it in [Berlin](location)?
+- What time is it right now?
+- What's the current time?
+- What's the time right now?
+- What's the time?
+- Would you tell me what time it is?
+- do you have the time?
+- do you know the current time?
+- tell me the current time.
+- tell me the time it is.
+- tell me the time.
+- tell me what time you have.
+- that's true. do you know what time it is?
+- what is the current time?
+- what is the time ?
+- what is the time in [Sydney](location)?
+- what is the time?
+- what is time in US ?
+- what is time is US ?
+- what is time is USA ?
+- what time do you have?
+- what time is it
+- what time is it?
+- what time it is
+- what's the time
+- whats the time now
+
+## intent:ask_whatisrasa
+- Can you brief me about rasa
+- Can you tell me more about rasa?
+- Can you tell me what Rasa does?
+- Could you tell me more about Rasa?
+- Give me more information about Rasa
+- How does Rasa work?
+- I want to know about rsa
+- I want to know what rasa actually does that isn't clear to me yet
+- I want to learn what rasa does
+- I want to learn what rasa is
+- I would like to know about rasa
+- I would like to know more about your product
+- OK can u brief me Abt rasa
+- RASA?
+- Rasa Is?
+- WHAT IS IT
+- WHAT IS RASA
+- What Is rasa?
+- What can rasa do?
+- What components does Rasa have?
+- What do you do as a company?
+- What do you do at Rasa?
+- What does Rasa build?
+- What does Rasa do?
+- What does Rasa make?
+- What does rasa do exactly?
+- What exactly is Rasa?
+- What is Rasa?
+- What is rasa doing exactly?
+- What is rasa?
+- What is the RASA Stack?
+- What's rasa?
+- can you explain rasa?
+- can you pls explain what rasa does
+- could you tell me more about rasa
+- explain me what rasa does
+- explain me what rasa is
+- how does RASA work?
+- how does rasa work
+- how does rasa work?
+- how rasa works ?
+- how works rasa
+- i dont get what rasa is
+- i havent understood yet what rasa actually is
+- i want to about rasa
+- i want to know about rasa
+- i want to know what rasa does
+- i want to learn something about rasa
+- so how does it all work?
+- sorry tell me about rasa
+- tell me about rasa
+- tell me bout rasa
+- tell me more about rasa
+- tell me more about your company
+- what are the componensts of RASA
+- what can I do with Rasa?
+- what can i build with rasa [core](product)?
+- what can i do with rasa
+- what do you guys do at rasa
+- what does rasa do
+- what does rasa do ?
+- what does rasa do?
+- what does rasa mean
+- what is [core](product)
+- what is [rasa](company)
+- what is [rasa](company) ?
+- what is in rasa
+- what is it for?
+- what is rasa
+- what is rasa [core](product)
+- what is rasa [core](product)?
+- what is rasa actually
+- what is rasa?
+- whats rasa
+- yeah go on explaining what rasa is
+
+## intent:ask_whatspossible
+- Can you explain me in one sentence what you are doing?
+- Can you help me?
+- Could you please show me what you can
+- Great, is there anything else you can do, bot?
+- How can you help me
+- How you help me?
+- I need help
+- I need some help
+- What are my options
+- What are you able to do?
+- What can I ask you?
+- What can I do?
+- What can you demo
+- What can you do
+- What can you do for me?
+- What can you do?
+- What can you tell me?
+- What do you do
+- anything els
+- are there any other options?
+- can I ask you anything else?
+- can you do anything else?
+- can you help me
+- can you help me?
+- come back
+- cool! can I do something else here?
+- hello what can you do for me
+- help
+- help me
+- help please
+- help pls
+- help?
+- hep me
+- hi. Sara what do you do?
+- hm that doesnt quite help me is there anything else you can do?
+- how can i use you
+- how can you help me
+- how can you help me?
+- how can you help?
+- how does this work?
+- how u can help me
+- how you help me
+- i asked you if you can do anything else
+- i don't know what i want
+- i need help
+- more info
+- now what?
+- options
+- show me the menu
+- show me what's possible
+- so now what
+- so what can you do
+- so what can you do?
+- so what can you help me with?
+- so what next?
+- talk to me
+- talk to me!
+- tell me something you can do
+- tell me what's your skill
+- um what now
+- what are all the things you understand?
+- what are the options?
+- what are you ding
+- what are you doing
+- what are you good at?
+- what can I ask ?
+- what can I ask you?
+- what can I do here
+- what can I do with Sara?
+- what can I do with this bot
+- what can i do here
+- what can i do now
+- what can u do
+- what can we talk about?
+- what can you answer
+- what can you do
+- what can you do for me
+- what can you do, sara?
+- what can you do?
+- what can you offer me?
+- what can you tell me
+- what can you?
+- what cn u do for me ?
+- what do you do
+- what do you do?
+- what do you know except this?
+- what else can I do here?
+- what else can i do
+- what else can i do?
+- what else can you do?
+- what else can you help with?
+- what i have to do
+- what is this bot for
+- what u can do
+- what u can do?
+- what you can do
+- what you can do for me?
+- what you can do?
+- what you do
+- what you doing?
+- what you talk about?
+
+## intent:ask_wherefrom
+- Are you from around here?
+- Around where are you from?
+- Do you know where you come from?
+- From where did you come?
+- So where are you from
+- What area are you from?
+- What citizenship do you lay claim to?
+- What city are you in?
+- What city do you claim to for your birth?
+- What city were you born in?
+- What country are you from?
+- What country were you born in?
+- What is your birthplace?
+- What is your heritage?
+- What is your origin?
+- What is your original location?
+- What is your root?
+- What location are you from?
+- What state were you born in?
+- What's the name of the place you came from?
+- Where are you located?
+- Where are you?
+- Where are your origins?
+- Where are your roots?
+- Where did you come from?
+- Where did you grow up?
+- Where did you originate?
+- Where do you come from?
+- Where do you consider home?
+- Where do you live?
+- Where from?
+- Where might you be from?
+- Where were you at before you were here?
+- Where were you born?
+- You live around here?
+- You were conceived in what location?
+- are you from around here?
+- what country are you from?
+- where are from
+- where are you from
+- where are you from?
+- where are your parents from?
+- where did you come from?
+- where did you grow up?
+- where did you spend your youth?
+- where do you come from?
+- where do you live
+- where do you live?
+- where's your home town?
+
+## intent:ask_whoisit
+- HI, what's your name?
+- Hello. What's your name?
+- I want to know who you are
+- So who are you ?
+- Tell me more about you
+- WHat's your name ?
+- WHo are you ?
+- What are you ?
+- What is your name
+- What is your name?
+- What's your name
+- What's your name?
+- Whats your name?
+- Who are yopu?
+- Who are you
+- Who are you?
+- You are Human ?
+- hey what is your name
+- hi! what's your name?
+- ok who are you ?
+- tell me something about you
+- u are?
+- what are you called?
+- what is sara?
+- what is your job?
+- what is your nam
+- what is your name
+- what is your name?
+- what is your nme?
+- what your name?
+- what's your name
+- what's your name ?
+- what's your name bot
+- what's your name?
+- whats ur name
+- whats your name
+- whats your name'
+- whats your name?
+- who ARE YO
+- who am i speaking with
+- who am i talking to
+- who ar eyou
+- who are u?
+- who are y
+- who are you
+- who are you ?
+- who are you and what do you want from me
+- who are you?
+- who are you??
+- who is it?
+- who is talking?
+- who is this
+- who is this bot
+- who is this?
+- who r u
+- who r you
+- who speaks?
+- who talks?
+- whom i talking to
+- yes but who are you in your heart
+- may i know your name
+- what is rasa mascot
+
+## intent:explain
+- can you elaborate
+- could you explain why you need that
+- could you tell me more
+- explain it to me
+- explain that
+- i want more information
+- i would like to know why you need that
+- please elaborate
+- please explain
+- why do you need to know that
+- why is that necessary
+- give me more details
+
+## intent:nicetomeeyou
+- Delighted to make your acquaintance.
+- Feels great to see you!
+- Glad to finally meet you!
+- Glad to make your acquaintance.
+- Glad to meet you
+- Glad to meet you!
+- Glad to meet you.
+- Glad we've met.
+- Good to meet you!
+- Good to see you!
+- Great interacting with you
+- Great seeing you
+- Great to meet you!
+- Great to meet you.
+- Happy to get to see you.
+- Hi Sara, just wanted to test you
+- Hi, glad to meet you.
+- Hi, nice to meet you!
+- I am glad I met you.
+- I am glad he introduced us.
+- I had a great meeting with you
+- I'm glad to have met you!
+- I'm glad to meet you!
+- I'm happy that we have met!
+- I'm pleased to meet you!
+- I'm so happy that I could meet you.
+- I'm thrilled to meet you!
+- It is indeed a pleasure to be able to meet you.
+- It was a pleasure to have your company.
+- It was nice to have met you
+- It's a pleasure to make your acquaintance!
+- It's a pleasure to meet you!
+- It's good that I could meet you. It was a pleasure.
+- It's great to get to know you!
+- It's great to make your acquaintance!
+- It's nice to finally meet you.
+- It's wonderful to meet you!
+- It’s a pleasure to meet you
+- It’s great connecting with you.
+- Lovely to meet you.
+- Nice to have met you.
+- Pleased to make your acquaintance!
+- Pleased to meet you!
+- Pleased to meet you.
+- See you around. It was a pleasure meeting you.
+- Thank you for this meeting. It was great to see you.
+- nice to meet you
+
+## intent:react_negative
+- I am feeling bad
+- I am sad
+- I am super sad
+- I'm sad
+- I'm super sad
+- Now I'm sad
+- This is bad
+- You are quite bad
+- bad
+- bad boy
+- crappy joke
+- documentation of rasa is very bad
+- i am angry over you
+- i am feel sad
+- i am sad
+- i am sad about that
+- i am very sad
+- i feel sad
+- i sad
+- i'm sad
+- rasa is bad
+- sad
+- so sad
+- so sad :(
+- super sad
+- u broke my heart
+- very very sad
+- you are bad
+- you are bad bot
+- you make me sad
+- You are mad
+- You are rude
+- bots are bad
+- i don't care!!!!
+- i dont like bots
+- this is a really frustrating experience
+- you're rather dull
+
+## intent:telljoke
+- Can you tell a joke?
+- Can you tell me a joke.
+- Come up with a joke you think I'll find funny.
+- Could you please share a joke with me.
+- Could you tell me a joke.
+- Do you have any jokes?
+- Do you know any jokes?
+- Entertain me with a joke.
+- Give me a funny joke.
+- Give me a joke.
+- Give me some comic relief.
+- I need a good joke.
+- I want to hear something funny.
+- Know any jokes?
+- Let's hear a joke from you.
+- Make me laugh.
+- Please tell me a joke.
+- Say something funny.
+- Share a joke with me!
+- Tell joke.
+- Tell me something funny.
+- Tell me something humorous!
+- Tell me something that you think will make me laugh.
+- Tell me the best joke you know.
+- What's a good joke?
+- Will you tell me a joke.
+- Would you share a joke with me.
+- Would you tell me a joke
+- give me a good joke
+- make me laugh with a bad joke
+- make me laugh with a joke
+- say a funny joke
+- say a joke
+- say a joke that's funny
+- say a joke that's so bad it's funny
+- tell me a joke
+- tell me a short joke
+- tell me a story joke
+- tell me something funny, like a joke
+- you can say a jok
+
+## intent:thank
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you Sara
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks sara
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+
+## intent:handleinsult
+- FUCK
+- Fuck
+- Fuck Off
+- Fuck off
+- Fuck u
+- Fuck you
+- God you're a moron
+- I can't believe how dumb you are
+- I hate you
+- Loser
+- Stupid
+- You are a fool.
+- You are an idiot.
+- You are dumb.
+- You are shortsighted.
+- You are unintelligent.
+- You are unknowing.
+- You brain is dull.
+- You have no brains.
+- You have no intelligence.
+- You have no sense.
+- You know nothing.
+- You lack intelligence.
+- You lack understanding.
+- You're a dolt.
+- You're a dunce.
+- You're an idiot.
+- You're foolish.
+- Your intelligence is laughable.
+- Your mindset is naive.
+- a baby knows more than you
+- are u dump?
+- are you brain dead?
+- asshole
+- bitch
+- bloody dunce
+- but you are idiot
+- deal with my ass, you bitch
+- f*ck
+- fuck
+- fuck off
+- fuck rasa
+- fuck u
+- fuck you
+- fuck you machine learning bot
+- fuck you sara
+- fuck you!
+- fucking stupid
+- fucking work
+- get lost
+- go away
+- go fuck yourself
+- go to hell
+- how can you be such an idiot?
+- i hate you
+- i hate your dumb face
+- i think that you're a bullshit
+- idiot
+- insult you
+- ok fuck you
+- ok shut up
+- sara you look like a burnt sparrow
+- shit
+- shit bot
+- shut up asshole
+- so dumb
+- so fucking dumb
+- sucker
+- that wasn't very funny
+- thta was a terrible fucking joke
+- u r a piece of junk
+- ur a pussy
+- what fuck
+- yep but you are idiot
+- you are a moron
+- you are a stupid bot
+- you are an idiot
+- you are dumb
+- you are fucking stupid
+- you are fucking stupid guy！
+- you are idiot
+- you are idiotic
+- you are so ignorant
+- you are stupid
+- you are unintelligent
+- you are useless bot
+- you asshole
+- you idiot
+- you idiot bot
+- you son of a bitch
+- you suck
+- you're a loser lmao
+- you're an idiot
+- you're dumb
+- you're not smart
+- you're so dumb
+- you're the most moronic person I know
+- your mom gay
+- you are annoying
