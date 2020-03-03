@@ -55,9 +55,7 @@
 - ayyyy whaddup
 - bonjour
 - ey boss
-- good evening
 - good moring
-- good morning
 - greet
 - greetings
 - hai
@@ -71,7 +69,6 @@
 - heelio
 - hell9o
 - hellio
-- hello
 - hello Sara
 - hello everybody
 - hello friend
@@ -90,7 +87,6 @@
 - hellooo
 - helloooo
 - helo
-- hey
 - hey bot
 - hey bot!
 - hey dude
@@ -99,7 +95,6 @@
 - hey rasa
 - hey sara
 - hey ther
-- hey there
 - hey there boy
 - hey there..
 - hey, let's talk
@@ -108,7 +103,6 @@
 - heyho
 - heyo
 - hhola
-- hi
 - hi !
 - hi Mister
 - hi again
@@ -476,7 +470,6 @@
 - nehi
 - nein
 - neither
-- never
 - never mind
 - no
 - no :(
@@ -496,7 +489,6 @@
 - no thank s
 - no thank you
 - no thanks
-- no way
 - no you did it wrong
 - no!!!!
 - no, i hate it
@@ -513,7 +505,6 @@
 - nope!
 - nope. i am good
 - not going well at all
-- not really
 - not right now
 - not yet
 - nö
@@ -584,8 +575,6 @@
 - I like you
 - I love you
 - you are realy intelligent
-
-
 
 ## intent:ask_builder
 - By whom were you built?
@@ -1054,7 +1043,6 @@
 - are you a Skynet ?
 - are you a bot
 - are you a bot ?
-- are you a bot?
 - are you a chatbot
 - are you a rasa bot?
 - are you a real bot?
@@ -1081,6 +1069,7 @@
 - you are ai
 - you are chatbot
 - you're a bot
+- are you a robot?
 
 ## intent:ask_languagesbot
 - Are you familiar with more than one language?
