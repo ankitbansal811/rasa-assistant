@@ -1,11 +1,30 @@
 intents:
   - greet
-  - goodbye
+  - bye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - react_positive
+  - react_negative
+  - ask_builder
+  - ask_faq_languages
+  - ask_how_contribute
+  - ask_howbuilt
+  - ask_howdoing
+  - ask_howold
+  - ask_isbot
+  - ask_languagesbot
+  - ask_time
+  - ask_whatisrasa
+  - ask_whatspossible
+  - ask_wherefrom
+  - ask_whoisit
+  - explain
+  - nicetomeeyou
+  - telljoke
+  - thank
+  - handleinsult
+  - source_code
+  - enter_data
 
 actions:
 - utter_greet
@@ -38,3 +57,14 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+entities:
+  - company
+  - product
+  - name
+  - language
+  - location
+  - amount-of-money
+  - time
+  - email
+  - number

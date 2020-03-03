@@ -1,7 +1,26 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: en
-pipeline: supervised_embeddings
+pipeline:
+- name: WhitespaceTokenizer
+- name: CRFEntityExtractor
+- name: CountVectorsFeaturizer
+  OOV_token: oov
+  token_pattern: (?u)\b\w+\b
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: EmbeddingIntentClassifier
+  epochs: 50
+  ranking_length: 5
+- name: DucklingHTTPExtractor
+  url: http://localhost:8000
+  dimensions:
+  - email
+  - number
+  - amount-of-money
+- name: EntitySynonymMapper
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
