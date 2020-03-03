@@ -575,6 +575,7 @@
 - I like you
 - I love you
 - you are realy intelligent
+- i'm good
 
 ## intent:ask_builder
 - By whom were you built?
