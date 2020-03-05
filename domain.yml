@@ -31,6 +31,9 @@ actions:
 - utter_cheer_up
 - utter_did_that_help
 - utter_happy
+- action_greet_user
+- action_faqs
+- actions_chitchat
 
 responses:
   utter_cheer_up:
@@ -50,6 +53,9 @@ responses:
     - payload: /feedback{"feedback_value":"negative"}
       title: 👎
     text: How is this conversation going?
+  utter_ask_feedback_message:
+  - text: I'm sorry I couldn't help you. Please let me know if you have any suggestions
+      for how I can improve.
   utter_restart_with_button:
   - buttons:
     - payload: /restart
@@ -143,7 +149,7 @@ responses:
   - text: It's always a pleasure to meet new people!
   - text: Nice to meet you too! Happy to be of help.
   utter_inform_privacypolicy:
-  - text: By chatting to me you agree to our privacy policy. Which is we store all your data :).
+  - text: By chatting to me you agree to our privacy policy. Which is we store all your conversations :).
   - text: I am still in development. So I will inform my bosses about our conversations.
   utter_handleinsult:
   - text: That's not very nice 😢
@@ -186,7 +192,31 @@ responses:
     - payload: /ask_how_contribute
       title: Next Step
     text: Sorry I couldn't help. Please help me grow.
-
+  utter_ask_builder:
+  - text: The development was started by [Ankit Bansal](mailto:abansal4@slb.com)
+  - text: One of the smart engineers here! 🧠
+  utter_ask_howbuilt:
+  - text: I was built with a lot of love and patience.
+  - text: Well, when two chatbots love each other very much...
+  - text: They always ask how I was built, but never how I am...
+  - text: I was made by software engineers, but hard work is what built me.
+  - text: I'm building myself every day. I've been working out, did you notice?
+  utter_ask_howdoing:
+  - text: I'm great! Thanks for asking.
+  - text: I'm good, thanks!
+  - text: A little bit too warm, otherwise fine.
+  - text: A little bit cold, otherwise fine.
+  utter_ask_howold:
+  - text: Old enough to be a bot!
+  - text: '42'
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
+  - text: Never ask a chatbot her age!
+  - text: My first git commit was many moons ago.
+  - text: Why do you ask? Are my wrinkles showing?
+  - text: I've hit the age where I actively try to forget how old I am.
+  utter_ask_name:
+  - text: What's your name?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -202,6 +232,7 @@ entities:
   - email
   - number
   - feedback_value
+  - required_timezone
 
 slots:
   feedback_value:
@@ -209,3 +240,7 @@ slots:
     values:
     - positive
     - negative
+  required_timezone:
+    type: unfeaturized
+  shown_privacy:
+    type: unfeaturized

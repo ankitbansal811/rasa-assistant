@@ -2514,3 +2514,6 @@
 
 ## regex:greet
 - hey[^\s]*
+
+## lookup: required_timezone
+data/nlu/lookups/timezones.txt
