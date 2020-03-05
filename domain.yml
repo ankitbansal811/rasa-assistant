@@ -24,7 +24,10 @@ intents:
   - thank
   - handleinsult
   - source_code
-  - enter_data
+  - enter_data:
+      use_entities: []
+  - human_handoff
+  - out_of_scope
 
 actions:
 - utter_greet
@@ -33,7 +36,7 @@ actions:
 - utter_happy
 - action_greet_user
 - action_faqs
-- actions_chitchat
+- action_chitchat
 
 responses:
   utter_cheer_up:
@@ -141,6 +144,8 @@ responses:
   - text: No worries!
   - text: You're welcome!
   - text: I'm happy to help.
+  utter_anything_else:
+  - text: Is there anything else I can help you with?
   utter_nicetomeeyou:
   - text: Likewise!
   - text: Thank you. It is a pleasure to meet you as well!
@@ -217,6 +222,21 @@ responses:
   - text: I've hit the age where I actively try to forget how old I am.
   utter_ask_name:
   - text: What's your name?
+  utter_what_help:
+  - text: Ok, what can I help you with?
+  utter_possibilities:
+  - text: "You can ask me about:\n- how to get started with Rasa\n- the components\
+      \ of Rasa,\n- booking a sales call\n- subscribing to our newsletter\n"
+  utter_contact_email:
+  - text: You can’t speak to a human directly in this chat, but you can email us at hi@rasa.com.
+  utter_nohelp:
+  - text: For now that's all I can do, so feel free to try it out. If you have any
+      suggestions for what I should learn, let me know!
+  utter_non_english:
+  - text: I only understand English, I'm sorry.
+  utter_oos:
+  - text: I can't help you with that, I'm sorry.
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
