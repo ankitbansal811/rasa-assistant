@@ -2,38 +2,37 @@ session_config:
   session_expiration_time: 60.0
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- bye
-- affirm
-- deny
-- react_positive
-- react_negative
-- ask_builder
-- ask_faq_languages
-- ask_how_contribute
-- ask_howbuilt
-- ask_howdoing
-- ask_howold
-- ask_isbot
-- ask_languagesbot
-- ask_time
-- ask_whatisrasa
-- ask_whatspossible
-- ask_wherefrom
-- ask_whoisit
-- explain
-- nicetomeeyou
-- telljoke
-- thank
-- handleinsult
-- source_code
-- enter_data:
-    use_entities: []
-- human_handoff
-- out_of_scope
-- feedback
-- out_of_scope/non_english
-- out_of_scope/other
+  - greet
+  - bye
+  - affirm
+  - deny
+  - react_positive
+  - react_negative
+  - ask_builder
+  - ask_faq_languages
+  - ask_how_contribute
+  - ask_howbuilt
+  - ask_howdoing
+  - ask_howold
+  - ask_isbot
+  - ask_languagesbot
+  - ask_time
+  - ask_whatisrasa
+  - ask_whatspossible
+  - ask_wherefrom
+  - ask_whoisit
+  - explain
+  - nicetomeeyou
+  - telljoke
+  - thank
+  - handleinsult
+  - source_code
+  - enter_data:
+      use_entities: []
+  - human_handoff
+  - feedback
+  - out_of_scope/non_english
+  - out_of_scope/other
 entities:
 - company
 - product
@@ -114,7 +113,7 @@ responses:
   - text: That's hard to say -- it's different all over the world!
   utter_ask_whatisrasa:
   - text: Rasa Open Source is a conversational AI framework for that provides machine
-      learning tools for building contextual assistants. You can read more about it
+      learning tools for building contextual assistants. You can read more about it 
       here in the docs or on our [website](https://rasa.com/).
   utter_ask_whatspossible:
   - text: "You can ask me about:\n- how to get started with Rasa\n- Rasa and Rasa\
@@ -173,7 +172,7 @@ responses:
   - text: Nice to meet you too! Happy to be of help.
   utter_inform_privacypolicy:
   - text: By chatting to me you agree to our privacy policy. Which is we store all
-      your conversations :).
+     your conversations :).
   - text: I am still in development. So I will inform my bosses about our conversations.
   utter_handleinsult:
   - text: That's not very nice 😢
@@ -210,8 +209,8 @@ responses:
   - text: You got it. 👍
   utter_canthelp:
   - text: I'm sorry I couldn't help you. Please contact us at [abansal4@slb.com](mailto:abansal4@slb.com)
-      for feedback.
-  - text:
+  for feedback.
+  - text: 
   - buttons:
     - payload: /ask_how_contribute
       title: Next Step
@@ -247,8 +246,7 @@ responses:
   - text: "You can ask me about:\n- how to get started with Rasa\n- the components\
       \ of Rasa,\n- booking a sales call\n- subscribing to our newsletter\n"
   utter_contact_email:
-  - text: You can’t speak to a human directly in this chat, but you can email us at
-      hi@rasa.com.
+  - text: You can’t speak to a human directly in this chat, but you can email us at abansal4@slb.com.
   utter_nohelp:
   - text: For now that's all I can do, so feel free to try it out. If you have any
       suggestions for what I should learn, let me know!
