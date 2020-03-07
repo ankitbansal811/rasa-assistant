@@ -1110,6 +1110,7 @@
 - you are chatbot
 - you're a bot
 - are you a robot?
+- Are you a Bot or Human?
 
 ## intent:ask_languagesbot
 - Are you familiar with more than one language?
@@ -1580,7 +1581,6 @@
 - See you around. It was a pleasure meeting you.
 - Thank you for this meeting. It was great to see you.
 - nice to meet you
-
 
 ## intent:telljoke
 - Can you tell a joke?
@@ -2511,6 +2511,7 @@
 - [wordpress](company)
 - slack
 - e commerce bot
+- My name is [Ankit Bansal](name)
 
 ## intent:human_handoff
 - Can I speak to anyone who can really help me?
@@ -2554,6 +2555,7 @@
 - that's annoying I'd like to speak to someone real
 - thats not helping, can i talk to human?
 - wrong i want to speak to a human
+- No, connect me with a human
 
 ## intent:out_of_scope/non_english
 - Wie fange ich mit Rasa an?
@@ -2915,6 +2917,3 @@
 
 ## regex:greet
 - hey[^\s]*
-
-## lookup: required_timezone
-data/nlu/lookups/timezones.txt
