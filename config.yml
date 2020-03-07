@@ -23,6 +23,7 @@ pipeline:
   - amount-of-money
   timezone: "Europe/Berlin"
 - name: EntitySynonymMapper
+- name: ResponseSelector
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
