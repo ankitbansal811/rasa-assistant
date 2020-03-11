@@ -88,9 +88,7 @@ class ActionGreetUser(Action):
         intent = tracker.latest_message["intent"].get("name")
         shown_privacy = tracker.get_slot("shown_privacy")
         name_entity = next(tracker.get_latest_entity_values("name"), None)
-        dispatcher.utter_message(template="utter_greet_noname")
         if intent == "greet" or (intent == "enter_data" and name_entity):
-            dispatcher.utter_message(template="utter_greet_noname")
             if name_entity:
                 dispatcher.utter_message(template="utter_greet_name", name=name_entity)
             else:

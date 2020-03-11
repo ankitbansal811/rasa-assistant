@@ -31,6 +31,7 @@ intents:
       use_entities: []
   - human_handoff
   - feedback
+  - out_of_scope
   - out_of_scope/non_english
   - out_of_scope/other
 entities:
@@ -173,7 +174,7 @@ responses:
   utter_inform_privacypolicy:
   - text: By chatting to me you agree to our privacy policy. Which is we store all
      your conversations :).
-  - text: I am still in development. So I will inform my bosses about our conversations.
+  - text: Privacy Policy - I am still in development. So I will inform my bosses about our conversations.
   utter_handleinsult:
   - text: That's not very nice 😢
   - text: That wasn't very nice. Perhaps try an anger management class?
@@ -209,8 +210,7 @@ responses:
   - text: You got it. 👍
   utter_canthelp:
   - text: I'm sorry I couldn't help you. Please contact us at [abansal4@slb.com](mailto:abansal4@slb.com)
-  for feedback.
-  - text: 
+      for feedback.
   - buttons:
     - payload: /ask_how_contribute
       title: Next Step
@@ -256,55 +256,56 @@ responses:
   - text: I can't help you with that, I'm sorry.
   utter_human_handoff:
   - text: Are you sure? I can do the following?
+
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- action_greet_user
-- action_faqs
-- action_chitchat
-- utter_ask_feedback
-- utter_ask_feedback_message
-- utter_restart_with_button
-- utter_restart
-- utter_react_negative
-- utter_react_positive
-- utter_ask_isbot
-- utter_ask_languagesbot
-- utter_ask_time
-- utter_ask_whatisrasa
-- utter_ask_whatspossible
-- utter_ask_wherefrom
-- utter_ask_whoisit
-- utter_bye
-- utter_telljoke
-- utter_thank_suggestion
-- utter_thumbsup
-- utter_ask_rephrase
-- utter_source_code
-- utter_search_bar
-- utter_not_sure
-- utter_noworries
-- utter_anything_else
-- utter_nicetomeeyou
-- utter_inform_privacypolicy
-- utter_handleinsult
-- utter_greet_name
-- utter_greet_noname
-- utter_great
-- utter_default
-- utter_can_do
-- utter_canthelp
-- utter_ask_builder
-- utter_ask_howbuilt
-- utter_ask_howdoing
-- utter_ask_howold
-- utter_ask_name
-- utter_what_help
-- utter_possibilities
-- utter_contact_email
-- utter_nohelp
-- utter_non_english
-- utter_oos
-- utter_human_handoff
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - action_greet_user
+  - action_faqs
+  - action_chitchat
+  - utter_ask_feedback
+  - utter_ask_feedback_message
+  - utter_restart_with_button
+  - utter_restart
+  - utter_react_negative
+  - utter_react_positive
+  - utter_ask_isbot
+  - utter_ask_languagesbot
+  - utter_ask_time
+  - utter_ask_whatisrasa
+  - utter_ask_whatspossible
+  - utter_ask_wherefrom
+  - utter_ask_whoisit
+  - utter_bye
+  - utter_telljoke
+  - utter_thank_suggestion
+  - utter_thumbsup
+  - utter_ask_rephrase
+  - utter_source_code
+  - utter_search_bar
+  - utter_not_sure
+  - utter_noworries
+  - utter_anything_else
+  - utter_nicetomeeyou
+  - utter_inform_privacypolicy
+  - utter_handleinsult
+  - utter_greet_name
+  - utter_greet_noname
+  - utter_great
+  - utter_default
+  - utter_can_do
+  - utter_canthelp
+  - utter_ask_builder
+  - utter_ask_howbuilt
+  - utter_ask_howdoing
+  - utter_ask_howold
+  - utter_ask_name
+  - utter_what_help
+  - utter_possibilities
+  - utter_contact_email
+  - utter_nohelp
+  - utter_non_english
+  - utter_oos
+  - utter_human_handoff
