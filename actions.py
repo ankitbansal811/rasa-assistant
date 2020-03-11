@@ -11,7 +11,7 @@ from typing import Any, Text, Dict, List
 #
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet, EventType
+from rasa_sdk.forms import FormAction
 
 #
 # class ActionHelloWorld(Action):
@@ -97,4 +97,21 @@ class ActionGreetUser(Action):
             if not shown_privacy:
                 dispatcher.utter_message(template="utter_inform_privacypolicy")
                 return [SlotSet("shown_privacy", True)]
+        return []
+
+class SuggestionForm(FormAction):
+    """Accept free text input from the user for suggestions"""
+
+    def name(self) -> Text:
+        return "suggestion_form"
+
+    @staticmethod
+    def required_slots(tracker) -> List[Text]:
+        return ["suggestion"]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        return {"suggestion": self.from_text()}
+
+    def submit(self, dispatcher, tracker, domain) -> List[EventType]:
+        dispatcher.utter_message(template="utter_thank_suggestion")
         return []
