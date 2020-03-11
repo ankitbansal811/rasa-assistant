@@ -2,38 +2,39 @@ session_config:
   session_expiration_time: 60.0
   carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - bye
-  - affirm
-  - deny
-  - react_positive
-  - react_negative
-  - ask_builder
-  - ask_faq_languages
-  - ask_how_contribute
-  - ask_howbuilt
-  - ask_howdoing
-  - ask_howold
-  - ask_isbot
-  - ask_languagesbot
-  - ask_time
-  - ask_whatisrasa
-  - ask_whatspossible
-  - ask_wherefrom
-  - ask_whoisit
-  - explain
-  - nicetomeeyou
-  - telljoke
-  - thank
-  - handleinsult
-  - source_code
-  - enter_data:
-      use_entities: []
-  - human_handoff
-  - feedback
-  - out_of_scope
-  - out_of_scope/non_english
-  - out_of_scope/other
+- greet
+- bye
+- affirm
+- deny
+- react_positive
+- react_negative
+- ask_builder
+- ask_faq_languages
+- ask_how_contribute
+- ask_howbuilt
+- ask_howdoing
+- ask_howold
+- ask_isbot
+- ask_languagesbot
+- ask_time
+- ask_whatisrasa
+- ask_whatspossible
+- ask_wherefrom
+- ask_whoisit
+- explain
+- nicetomeeyou
+- telljoke
+- thank
+- handleinsult
+- source_code
+- enter_data:
+    use_entities: []
+- human_handoff
+- feedback
+- out_of_scope:
+    triggers: respond_out_of_scope
+    use_entities: []
+
 entities:
 - company
 - product
@@ -258,54 +259,55 @@ responses:
   - text: Are you sure? I can do the following?
 
 actions:
-  - utter_greet
-  - utter_cheer_up
-  - utter_did_that_help
-  - utter_happy
-  - action_greet_user
-  - action_faqs
-  - action_chitchat
-  - utter_ask_feedback
-  - utter_ask_feedback_message
-  - utter_restart_with_button
-  - utter_restart
-  - utter_react_negative
-  - utter_react_positive
-  - utter_ask_isbot
-  - utter_ask_languagesbot
-  - utter_ask_time
-  - utter_ask_whatisrasa
-  - utter_ask_whatspossible
-  - utter_ask_wherefrom
-  - utter_ask_whoisit
-  - utter_bye
-  - utter_telljoke
-  - utter_thank_suggestion
-  - utter_thumbsup
-  - utter_ask_rephrase
-  - utter_source_code
-  - utter_search_bar
-  - utter_not_sure
-  - utter_noworries
-  - utter_anything_else
-  - utter_nicetomeeyou
-  - utter_inform_privacypolicy
-  - utter_handleinsult
-  - utter_greet_name
-  - utter_greet_noname
-  - utter_great
-  - utter_default
-  - utter_can_do
-  - utter_canthelp
-  - utter_ask_builder
-  - utter_ask_howbuilt
-  - utter_ask_howdoing
-  - utter_ask_howold
-  - utter_ask_name
-  - utter_what_help
-  - utter_possibilities
-  - utter_contact_email
-  - utter_nohelp
-  - utter_non_english
-  - utter_oos
-  - utter_human_handoff
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- action_greet_user
+- action_faqs
+- action_chitchat
+- utter_ask_feedback
+- utter_ask_feedback_message
+- utter_restart_with_button
+- utter_restart
+- utter_react_negative
+- utter_react_positive
+- utter_ask_isbot
+- utter_ask_languagesbot
+- utter_ask_time
+- utter_ask_whatisrasa
+- utter_ask_whatspossible
+- utter_ask_wherefrom
+- utter_ask_whoisit
+- utter_bye
+- utter_telljoke
+- utter_thank_suggestion
+- utter_thumbsup
+- utter_ask_rephrase
+- utter_source_code
+- utter_search_bar
+- utter_not_sure
+- utter_noworries
+- utter_anything_else
+- utter_nicetomeeyou
+- utter_inform_privacypolicy
+- utter_handleinsult
+- utter_greet_name
+- utter_greet_noname
+- utter_great
+- utter_default
+- utter_can_do
+- utter_canthelp
+- utter_ask_builder
+- utter_ask_howbuilt
+- utter_ask_howdoing
+- utter_ask_howold
+- utter_ask_name
+- utter_what_help
+- utter_possibilities
+- utter_contact_email
+- utter_nohelp
+- utter_non_english
+- utter_oos
+- utter_human_handoff
+- respond_out_of_scope
