@@ -118,10 +118,6 @@
 * human_handoff
     - utter_contact_email
 
-## faqs
-* ask_faq_languages
-    - action_faqs
-
 ## out of scope non english
 * out_of_scope/non_english
     - utter_non_english
