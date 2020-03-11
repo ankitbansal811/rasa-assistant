@@ -93,7 +93,7 @@ class ActionGreetUser(Action):
                 dispatcher.utter_message(template="utter_greet_name", name=name_entity)
             else:
                 dispatcher.utter_message(template="utter_greet_noname")
-            
+
             if not shown_privacy:
                 dispatcher.utter_message(template="utter_inform_privacypolicy")
                 return [SlotSet("shown_privacy", True)]
