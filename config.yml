@@ -28,6 +28,14 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
+- name: EmbeddingPolicy
+  max_history: 10
+  epochs: 20
+  batch_size:
+  - 32
+  - 64
+- name: TwoStageFallbackPolicy
+  core_threshold: 0.05
+  nlu_threshold: 0.8
+- name: MemoizationPolicy
+- name: MappingPolicy
