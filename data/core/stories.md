@@ -57,14 +57,6 @@
 * ask_faq_languages
     - action_faqs
 
-## out of scope non english
-* out_of_scope/non_english
-    - utter_non_english
-
-## out of scope other
-* out_of_scope/other
-    - utter_oos
-
 ## happy path
 * greet
     - action_greet_user
@@ -92,3 +84,8 @@
 ## bot challenge
 * ask_isbot
     - utter_ask_isbot
+
+## out of scope
+* out_of_scope
+    - respond_out_of_scope
+    - utter_possibilities
