@@ -39,3 +39,4 @@ policies:
   nlu_threshold: 0.8
 - name: MemoizationPolicy
 - name: MappingPolicy
+- name: FormPolicy
