@@ -59,6 +59,13 @@ slots:
     type: unfeaturized
   shown_privacy:
     type: unfeaturized
+  suggestion:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+
 responses:
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
@@ -257,6 +264,18 @@ responses:
   - text: I can't help you with that, I'm sorry.
   utter_human_handoff:
   - text: Are you sure? I can do the following?
+  utter_ask_business_email:
+  - text: What's your business email?
+  utter_explain_business_email:
+  - text: We need your business email to contact you afterwards.
+  utter_ask_person_name:
+  - text: What is your name?
+  - text: Who are you?
+  utter_explain_person_name:
+  - text: To be able to contact you later on, we would like to know your name.
+  utter_no_email:
+  - text: Hmm, I'm not sure I have received a valid email, please make sure to include
+      the full address 😅
 
 actions:
 - utter_greet
@@ -311,3 +330,8 @@ actions:
 - utter_oos
 - utter_human_handoff
 - respond_out_of_scope
+- action_default_fallback
+- action_default_ask_affirmation
+
+forms:
+- suggestion_form

@@ -219,10 +219,33 @@ class SuggestionForm(FormAction):
 
     @staticmethod
     def required_slots(tracker) -> List[Text]:
-        return ["suggestion"]
+        return ["person_name", "business_email", "suggestion"]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-        return {"suggestion": self.from_text()}
+        return {
+            "suggestion": self.from_text(),
+            "person_name": [
+                self.from_entity(entity="name"),
+                self.from_text(intent="enter_data"),
+            ],
+            "business_email": [
+                self.from_entity(entity="email"),
+                self.from_text(intent="enter_data"),
+            ],
+            }
+
+    def validate_business_email(
+        self, value, dispatcher, tracker, domain
+    ) -> Dict[Text, Any]:
+        """Check to see if an email entity was actually picked up by duckling."""
+
+        if any(tracker.get_latest_entity_values("email")):
+            # entity was picked up, validate slot
+            return {"business_email": value}
+        else:
+            # no entity was picked up, we want to ask again
+            dispatcher.utter_message(template="utter_no_email")
+            return {"business_email": None}
 
     def submit(self, dispatcher, tracker, domain) -> List[EventType]:
         dispatcher.utter_message(template="utter_thank_suggestion")
