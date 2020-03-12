@@ -34,7 +34,8 @@ intents:
 - out_of_scope:
     triggers: respond_out_of_scope
     use_entities: []
-
+- out_of_scope/non_english
+- out_of_scope/other
 entities:
 - company
 - product
@@ -50,22 +51,21 @@ entities:
 - entity
 - job_function
 slots:
+  business_email:
+    type: unfeaturized
   feedback_value:
     type: categorical
     values:
     - positive
     - negative
+  person_name:
+    type: unfeaturized
   required_timezone:
     type: unfeaturized
   shown_privacy:
     type: unfeaturized
   suggestion:
     type: unfeaturized
-  person_name:
-    type: unfeaturized
-  business_email:
-    type: unfeaturized
-
 responses:
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
@@ -122,7 +122,7 @@ responses:
   - text: That's hard to say -- it's different all over the world!
   utter_ask_whatisrasa:
   - text: Rasa Open Source is a conversational AI framework for that provides machine
-      learning tools for building contextual assistants. You can read more about it 
+      learning tools for building contextual assistants. You can read more about it
       here in the docs or on our [website](https://rasa.com/).
   utter_ask_whatspossible:
   - text: "You can ask me about:\n- how to get started with Rasa\n- Rasa and Rasa\
@@ -181,8 +181,9 @@ responses:
   - text: Nice to meet you too! Happy to be of help.
   utter_inform_privacypolicy:
   - text: By chatting to me you agree to our privacy policy. Which is we store all
-     your conversations :).
-  - text: Privacy Policy - I am still in development. So I will inform my bosses about our conversations.
+      your conversations :).
+  - text: Privacy Policy - I am still in development. So I will inform my bosses about
+      our conversations.
   utter_handleinsult:
   - text: That's not very nice 😢
   - text: That wasn't very nice. Perhaps try an anger management class?
@@ -254,7 +255,8 @@ responses:
   - text: "You can ask me about:\n- how to get started with Rasa\n- the components\
       \ of Rasa,\n- booking a sales call\n- subscribing to our newsletter\n"
   utter_contact_email:
-  - text: You can’t speak to a human directly in this chat, but you can email us at abansal4@slb.com.
+  - text: You can’t speak to a human directly in this chat, but you can email us at
+      abansal4@slb.com.
   utter_nohelp:
   - text: For now that's all I can do, so feel free to try it out. If you have any
       suggestions for what I should learn, let me know!
@@ -276,7 +278,6 @@ responses:
   utter_no_email:
   - text: Hmm, I'm not sure I have received a valid email, please make sure to include
       the full address 😅
-
 actions:
 - utter_greet
 - utter_cheer_up
@@ -332,6 +333,10 @@ actions:
 - respond_out_of_scope
 - action_default_fallback
 - action_default_ask_affirmation
-
+- utter_ask_business_email
+- utter_explain_business_email
+- utter_ask_person_name
+- utter_explain_person_name
+- utter_no_email
 forms:
 - suggestion_form
