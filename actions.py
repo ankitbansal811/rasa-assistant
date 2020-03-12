@@ -15,6 +15,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, EventType, ConversationPaused, UserUtteranceReverted
 from rasa_sdk.forms import FormAction
 
+here = os.path.abspath(os.path.dirname(__file__))
 #
 # class ActionHelloWorld(Action):
 #
@@ -111,7 +112,7 @@ class ActionDefaultAskAffirmation(Action):
     def __init__(self) -> None:
         import pandas as pd
 
-        self.intent_mappings = pd.read_csv("intent_description_mapping.csv")
+        self.intent_mappings = pd.read_csv(os.path.join(here, 'intent_description_mapping.csv'))
         self.intent_mappings.fillna("", inplace=True)
         self.intent_mappings.entities = self.intent_mappings.entities.map(
             lambda entities: {e.strip() for e in entities.split(",")}
