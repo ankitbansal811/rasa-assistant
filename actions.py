@@ -8,6 +8,7 @@
 # This is a simple example for a custom action which utters "Hello World!"
 import pandas as pd
 import json
+import os
 from typing import Any, Text, Dict, List, Union
 #
 from rasa_sdk import Action, Tracker
