@@ -35,7 +35,7 @@ policies:
   - 32
   - 64
 - name: TwoStageFallbackPolicy
-  core_threshold: 0.05
+  core_threshold: 0.3
   nlu_threshold: 0.8
 - name: MemoizationPolicy
 - name: MappingPolicy
