@@ -47,3 +47,15 @@
     - slot{"feedback_value": "positive"}
     - utter_great
     - utter_anything_else
+
+## Greet, Name, chitchat
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* enter_data{"name":"Ankit Bansal"}
+    - action_greet_user
+* ask_whoisit
+    - action_chitchat
+* ask_whatspossible
+    - action_chitchat
