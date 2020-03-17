@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  actions_server:
+    image: 'rasa_actions:latest'
+    volumes:
+      - './actions:/app/actions'
+    expose:
+      - '5055'
+  
+  duckling:
+    restart: always
+    image: "rasa/duckling:latest"
+    expose:
+      - "8000"
+    command: ["duckling-example-exe", "--no-access-log", "--no-error-log"]
